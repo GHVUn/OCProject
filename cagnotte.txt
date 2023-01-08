@@ -1,0 +1,12 @@
+Un fichier texte cagnotte créé pour :
+
+	- créer une nouvelle branche nommée cagnotte avec la commande : git branch cagnotte ;
+	- vérifier sur quelle branche on se trouve avec la commande : git branch ;
+	- changer de branche avec la commande : git checkout cagnotte ;
+	- créer ce fichier txt dans la branche cagnotte ;
+	- effectuer la phase de staging avec la commande : git add cagnotte.txt ;
+	- effectuer la phase de commit sur la branche cagnotte avec la commande : git push -u origin cagnotte ;
+	- revenir sur la branche main pour fusionner les deux branches avec les commandes :
+			- git checkout main pour retourner dans la branche main ;
+			- git merge cagnotte pour fusionner les branches.
+	
